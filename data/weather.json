@@ -1,0 +1,308 @@
+{
+  "cities": [
+    {
+      "name": "London",
+      "country": "United Kingdom",
+      "aliases": ["ldn"],
+      "temperatureC": 15,
+      "feelsLikeC": 14,
+      "humidity": 72,
+      "windKph": 18,
+      "condition": "Partly Cloudy",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1163/1163661.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 16, "condition": "Cloudy" },
+        { "day": "Day 2", "tempC": 17, "condition": "Sunny" },
+        { "day": "Day 3", "tempC": 14, "condition": "Rain" }
+      ]
+    },
+    {
+      "name": "Karachi",
+      "country": "Pakistan",
+      "aliases": ["khi"],
+      "temperatureC": 31,
+      "feelsLikeC": 34,
+      "humidity": 65,
+      "windKph": 12,
+      "condition": "Sunny",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1163/1163661.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 32, "condition": "Sunny" },
+        { "day": "Day 2", "tempC": 33, "condition": "Sunny" },
+        { "day": "Day 3", "tempC": 30, "condition": "Partly Cloudy" }
+      ]
+    },
+    {
+      "name": "New York",
+      "country": "USA",
+      "aliases": ["nyc"],
+      "temperatureC": 22,
+      "feelsLikeC": 23,
+      "humidity": 60,
+      "windKph": 20,
+      "condition": "Sunny",
+      "icon": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 24, "condition": "Sunny" },
+        { "day": "Day 2", "tempC": 21, "condition": "Cloudy" },
+        { "day": "Day 3", "tempC": 19, "condition": "Rain" }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "aliases": ["par"],
+      "temperatureC": 18,
+      "feelsLikeC": 17,
+      "humidity": 70,
+      "windKph": 15,
+      "condition": "Cloudy",
+      "icon": "https://cdn-icons-png.flaticon.com/512/414/414825.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 19, "condition": "Cloudy" },
+        { "day": "Day 2", "tempC": 20, "condition": "Sunny" },
+        { "day": "Day 3", "tempC": 17, "condition": "Rain" }
+      ]
+    },
+    {
+      "name": "Tokyo",
+      "country": "Japan",
+      "aliases": ["tyo"],
+      "temperatureC": 27,
+      "feelsLikeC": 29,
+      "humidity": 75,
+      "windKph": 10,
+      "condition": "Rain",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1163/1163624.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 26, "condition": "Cloudy" },
+        { "day": "Day 2", "tempC": 25, "condition": "Rain" },
+        { "day": "Day 3", "tempC": 27, "condition": "Sunny" }
+      ]
+    },
+    {
+      "name": "Sydney",
+      "country": "Australia",
+      "aliases": ["syd"],
+      "temperatureC": 20,
+      "feelsLikeC": 19,
+      "humidity": 65,
+      "windKph": 14,
+      "condition": "Sunny",
+      "icon": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 21, "condition": "Sunny" },
+        { "day": "Day 2", "tempC": 22, "condition": "Partly Cloudy" },
+        { "day": "Day 3", "tempC": 19, "condition": "Rain" }
+      ]
+    },
+    {
+      "name": "Dubai",
+      "country": "UAE",
+      "aliases": ["dxb"],
+      "temperatureC": 36,
+      "feelsLikeC": 40,
+      "humidity": 55,
+      "windKph": 18,
+      "condition": "Sunny",
+      "icon": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 37, "condition": "Sunny" },
+        { "day": "Day 2", "tempC": 38, "condition": "Sunny" },
+        { "day": "Day 3", "tempC": 35, "condition": "Sunny" }
+      ]
+    },
+    {
+      "name": "Toronto",
+      "country": "Canada",
+      "aliases": ["yyz"],
+      "temperatureC": 12,
+      "feelsLikeC": 10,
+      "humidity": 80,
+      "windKph": 22,
+      "condition": "Cloudy",
+      "icon": "https://cdn-icons-png.flaticon.com/512/414/414825.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 14, "condition": "Rain" },
+        { "day": "Day 2", "tempC": 16, "condition": "Cloudy" },
+        { "day": "Day 3", "tempC": 13, "condition": "Sunny" }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "country": "Germany",
+      "aliases": ["ber"],
+      "temperatureC": 17,
+      "feelsLikeC": 16,
+      "humidity": 68,
+      "windKph": 13,
+      "condition": "Partly Cloudy",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1163/1163661.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 18, "condition": "Cloudy" },
+        { "day": "Day 2", "tempC": 19, "condition": "Sunny" },
+        { "day": "Day 3", "tempC": 16, "condition": "Rain" }
+      ]
+    },
+    {
+      "name": "Rome",
+      "country": "Italy",
+      "aliases": ["rom"],
+      "temperatureC": 23,
+      "feelsLikeC": 24,
+      "humidity": 60,
+      "windKph": 10,
+      "condition": "Sunny",
+      "icon": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 25, "condition": "Sunny" },
+        { "day": "Day 2", "tempC": 24, "condition": "Cloudy" },
+        { "day": "Day 3", "tempC": 22, "condition": "Rain" }
+      ]
+    },
+    {
+      "name": "Cairo",
+      "country": "Egypt",
+      "aliases": ["cai"],
+      "temperatureC": 34,
+      "feelsLikeC": 37,
+      "humidity": 50,
+      "windKph": 20,
+      "condition": "Sunny",
+      "icon": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 35, "condition": "Sunny" },
+        { "day": "Day 2", "tempC": 36, "condition": "Sunny" },
+        { "day": "Day 3", "tempC": 33, "condition": "Partly Cloudy" }
+      ]
+    },
+    {
+      "name": "Moscow",
+      "country": "Russia",
+      "aliases": ["mos"],
+      "temperatureC": 10,
+      "feelsLikeC": 8,
+      "humidity": 82,
+      "windKph": 16,
+      "condition": "Rain",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1163/1163624.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 9, "condition": "Cloudy" },
+        { "day": "Day 2", "tempC": 11, "condition": "Rain" },
+        { "day": "Day 3", "tempC": 12, "condition": "Sunny" }
+      ]
+    },
+    {
+      "name": "Beijing",
+      "country": "China",
+      "aliases": ["bj"],
+      "temperatureC": 28,
+      "feelsLikeC": 30,
+      "humidity": 70,
+      "windKph": 12,
+      "condition": "Sunny",
+      "icon": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 29, "condition": "Sunny" },
+        { "day": "Day 2", "tempC": 27, "condition": "Cloudy" },
+        { "day": "Day 3", "tempC": 28, "condition": "Sunny" }
+      ]
+    },
+    {
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "aliases": ["rio"],
+      "temperatureC": 29,
+      "feelsLikeC": 31,
+      "humidity": 77,
+      "windKph": 14,
+      "condition": "Partly Cloudy",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1163/1163661.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 30, "condition": "Sunny" },
+        { "day": "Day 2", "tempC": 28, "condition": "Rain" },
+        { "day": "Day 3", "tempC": 29, "condition": "Cloudy" }
+      ]
+    },
+    {
+      "name": "Istanbul",
+      "country": "Turkey",
+      "aliases": ["ist"],
+      "temperatureC": 21,
+      "feelsLikeC": 22,
+      "humidity": 67,
+      "windKph": 17,
+      "condition": "Cloudy",
+      "icon": "https://cdn-icons-png.flaticon.com/512/414/414825.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 22, "condition": "Sunny" },
+        { "day": "Day 2", "tempC": 20, "condition": "Rain" },
+        { "day": "Day 3", "tempC": 21, "condition": "Cloudy" }
+      ]
+    },
+    {
+      "name": "Bangkok",
+      "country": "Thailand",
+      "aliases": ["bkk"],
+      "temperatureC": 32,
+      "feelsLikeC": 35,
+      "humidity": 80,
+      "windKph": 10,
+      "condition": "Rain",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1163/1163624.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 33, "condition": "Rain" },
+        { "day": "Day 2", "tempC": 34, "condition": "Sunny" },
+        { "day": "Day 3", "tempC": 31, "condition": "Partly Cloudy" }
+      ]
+    },
+    {
+      "name": "Seoul",
+      "country": "South Korea",
+      "aliases": ["sel"],
+      "temperatureC": 24,
+      "feelsLikeC": 25,
+      "humidity": 73,
+      "windKph": 11,
+      "condition": "Partly Cloudy",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1163/1163661.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 25, "condition": "Cloudy" },
+        { "day": "Day 2", "tempC": 26, "condition": "Sunny" },
+        { "day": "Day 3", "tempC": 23, "condition": "Rain" }
+      ]
+    },
+    {
+      "name": "Johannesburg",
+      "country": "South Africa",
+      "aliases": ["jnb"],
+      "temperatureC": 19,
+      "feelsLikeC": 18,
+      "humidity": 65,
+      "windKph": 12,
+      "condition": "Sunny",
+      "icon": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 20, "condition": "Sunny" },
+        { "day": "Day 2", "tempC": 21, "condition": "Partly Cloudy" },
+        { "day": "Day 3", "tempC": 18, "condition": "Rain" }
+      ]
+    },
+    {
+      "name": "Mexico City",
+      "country": "Mexico",
+      "aliases": ["mex"],
+      "temperatureC": 26,
+      "feelsLikeC": 27,
+      "humidity": 68,
+      "windKph": 13,
+      "condition": "Cloudy",
+      "icon": "https://cdn-icons-png.flaticon.com/512/414/414825.png",
+      "forecast": [
+        { "day": "Tomorrow", "tempC": 27, "condition": "Sunny" },
+        { "day": "Day 2", "tempC": 28, "condition": "Rain" },
+        { "day": "Day 3", "tempC": 25, "condition": "Cloudy" }
+      ]
+    }
+  ]
+}
