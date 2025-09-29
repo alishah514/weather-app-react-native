@@ -25,11 +25,10 @@ export default function CityCard({
 
   const isFav = favorites.includes(city.city);
 
-  // Weather-based styling
   const weatherStyles = {
     Sunny: {
-      bgColor: '#FFF7C0', // soft yellow
-      textColor: '#333', // dark for readability
+      bgColor: '#FFF7C0',
+      textColor: '#333',
       borderColor: '#FFD700',
       icon: '☀️',
     },
@@ -44,6 +43,42 @@ export default function CityCard({
       textColor: '#000',
       borderColor: '#1E90FF',
       icon: '🌧',
+    },
+    Snowy: {
+      bgColor: '#F0F8FF', // very light blue/white
+      textColor: '#333',
+      borderColor: '#87CEEB',
+      icon: '❄️',
+    },
+    Clear: {
+      bgColor: '#C0F7FF', // bright light blue
+      textColor: '#000',
+      borderColor: '#00BFFF',
+      icon: '🌤',
+    },
+    Smoggy: {
+      bgColor: '#D3D3D3', // gray haze
+      textColor: '#444',
+      borderColor: '#696969',
+      icon: '🌫',
+    },
+    'Partly Cloudy': {
+      bgColor: '#F5F5DC', // beige/cream
+      textColor: '#333',
+      borderColor: '#C0C0C0',
+      icon: '⛅',
+    },
+    Humid: {
+      bgColor: '#CCFFFF', // very light aqua
+      textColor: '#000',
+      borderColor: '#00CED1',
+      icon: '💧',
+    },
+    Windy: {
+      bgColor: '#E6F7FF', // pale blue
+      textColor: '#333',
+      borderColor: '#4682B4',
+      icon: '🌬',
     },
   };
 

@@ -9,6 +9,7 @@ import {
   getUnit,
   setUnit,
 } from '../utils/storage';
+import weatherData from '../../data/weatherData.json';
 
 export const WeatherContext = createContext();
 
@@ -31,34 +32,26 @@ export function WeatherProvider({ children }) {
     })();
   }, []);
 
-  // --- SEARCH CITY FROM JSON SERVER ---
+  // --- SEARCH CITY FROM LOCAL JSON ---
   async function searchCity(query) {
     if (!query) return null;
     const q = query.trim().toLowerCase();
 
-    try {
-      const res = await fetch(`http://localhost:3000/cities?city_like=${q}`);
-      const data = await res.json();
+    const found = weatherData.cities.find(c => c.city.toLowerCase() === q);
 
-      const found = data.find(c => c.city.toLowerCase() === q);
+    if (found) {
+      setCity(found);
+      await cacheCity(found);
 
-      if (found) {
-        setCity(found);
-        await cacheCity(found);
-
-        const next = [
-          found.city,
-          ...recent.filter(r => r !== found.city),
-        ].slice(0, 10);
-        setRecentState(next);
-        await setRecent(next);
-      }
-
-      return found;
-    } catch (err) {
-      console.error('Error fetching city:', err);
-      return null;
+      const next = [found.city, ...recent.filter(r => r !== found.city)].slice(
+        0,
+        10,
+      );
+      setRecentState(next);
+      await setRecent(next);
     }
+
+    return found || null;
   }
 
   // --- FAVORITES ---

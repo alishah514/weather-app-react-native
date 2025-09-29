@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import { ThemeContext } from '../context/ThemeContext';
 import { wp, hp } from '../utils/dimensions';
+import weatherData from '../../data/weatherData.json';
 
 export default function SearchBar({ onSearch }) {
   const [query, setQuery] = useState('');
@@ -22,25 +23,12 @@ export default function SearchBar({ onSearch }) {
       return;
     }
 
-    const fetchCities = async () => {
-      try {
-        const res = await fetch(
-          `http://localhost:3000/cities?city_like=${query}`,
-        );
-        const data = await res.json();
+    // 🔹 Filter directly from local JSON instead of fetching
+    const results = weatherData.cities.filter(c =>
+      c.city.toLowerCase().startsWith(query.toLowerCase()),
+    );
 
-        const results = data.filter(c =>
-          c.city.toLowerCase().startsWith(query.toLowerCase()),
-        );
-
-        setFiltered(results);
-      } catch (err) {
-        console.error('Error fetching cities:', err);
-        setFiltered([]);
-      }
-    };
-
-    if (!selected || selected.city !== query) fetchCities();
+    setFiltered(results);
   }, [query]);
 
   const handleSelect = city => {

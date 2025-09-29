@@ -4,7 +4,6 @@ import {
   StatusBar,
   TouchableOpacity,
   Text,
-  SafeAreaView,
   ScrollView,
 } from 'react-native';
 import SearchBar from '../components/SearchBar';
@@ -14,6 +13,7 @@ import FavoriteList from '../components/FavoriteList';
 import { WeatherContext } from '../context/WeatherContext';
 import { ThemeContext } from '../context/ThemeContext';
 import styles from '../styles/global';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
   const {
