@@ -82,7 +82,6 @@ export default function HomeScreen() {
               removeRecent={removeRecent}
             />
             <FavoriteList favorites={favorites} onSelect={q => searchCity(q)} />
-            {console.log('favorites', favorites)}
           </View>
 
           <View
