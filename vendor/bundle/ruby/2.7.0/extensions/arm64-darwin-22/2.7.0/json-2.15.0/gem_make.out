@@ -1,0 +1,27 @@
+current directory: /Users/codedecode/Documents/MyWeatherApp/vendor/bundle/ruby/2.7.0/gems/json-2.15.0/ext/json/ext/parser
+/Users/codedecode/.rvm/rubies/ruby-2.7.6/bin/ruby -I /Users/codedecode/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20250925-26590-fpga8s.rb extconf.rb
+checking for rb_enc_interned_str() in ruby/encoding.h... no
+checking for rb_hash_new_capa() in ruby.h... no
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for strnlen() in string.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+checking for arm_neon.h... yes
+checking for cpuid.h... no
+creating Makefile
+
+current directory: /Users/codedecode/Documents/MyWeatherApp/vendor/bundle/ruby/2.7.0/gems/json-2.15.0/ext/json/ext/parser
+make "DESTDIR=" clean
+
+current directory: /Users/codedecode/Documents/MyWeatherApp/vendor/bundle/ruby/2.7.0/gems/json-2.15.0/ext/json/ext/parser
+make "DESTDIR="
+compiling parser.c
+parser.c:1274:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+ 1274 | }
+      | ^
+1 warning generated.
+linking shared-object json/ext/parser.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/codedecode/Documents/MyWeatherApp/vendor/bundle/ruby/2.7.0/gems/json-2.15.0/ext/json/ext/parser
+make "DESTDIR=" install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 parser.bundle ./.gem.20250925-26590-171u275/json/ext

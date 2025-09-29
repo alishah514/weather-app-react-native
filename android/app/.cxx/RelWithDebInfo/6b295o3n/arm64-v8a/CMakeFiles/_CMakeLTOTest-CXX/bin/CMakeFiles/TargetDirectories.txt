@@ -1,0 +1,4 @@
+/Users/codedecode/Documents/MyWeatherApp/android/app/.cxx/RelWithDebInfo/6b295o3n/arm64-v8a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/Users/codedecode/Documents/MyWeatherApp/android/app/.cxx/RelWithDebInfo/6b295o3n/arm64-v8a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/Users/codedecode/Documents/MyWeatherApp/android/app/.cxx/RelWithDebInfo/6b295o3n/arm64-v8a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/Users/codedecode/Documents/MyWeatherApp/android/app/.cxx/RelWithDebInfo/6b295o3n/arm64-v8a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
